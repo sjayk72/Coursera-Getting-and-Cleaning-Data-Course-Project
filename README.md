@@ -9,7 +9,7 @@ Unzip the data to folder ~/R/UCI HAR Dataset.
 The data was collected from the experiments to 30 volunteer who perform 6 activities wearing a smartphone (Samsung Galaxy S II) on the waist. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 ## Script
-R script was created to do this step:
+R script file run_analysis.R was created to do this step:
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
