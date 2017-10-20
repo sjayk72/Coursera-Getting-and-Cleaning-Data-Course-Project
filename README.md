@@ -18,3 +18,6 @@ R script was created to do this step:
 
 ## Tidy Data Set
 The script will write a tab-delimited tidy data table on the same folder as the raw data.
+
+## Code Book
+CodeBook.md describes the variables, the data, and any transformations or work in order to clean up the data.
