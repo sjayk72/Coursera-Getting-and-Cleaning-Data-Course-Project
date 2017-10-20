@@ -17,7 +17,7 @@ R script file run_analysis.R was created to do this step:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Tidy Data Set
-The script will write a tab-delimited tidy data table on the same folder as the raw data.
+The script will write a tab-delimited tidy data table file named "averages.txt".
 
 ## Code Book
 CodeBook.md describes the variables, the data, and any transformations or work in order to clean up the data.
