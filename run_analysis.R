@@ -64,4 +64,4 @@ df <- cbind(dataset, activity, subject)
 averages <- ddply(df, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
 # Write the output file to the same data directory
-write.table(averages, "~/R/UCI HAR Dataset/averages.txt", sep = "\t")
+write.table(averages, "~/R/UCI HAR Dataset/averages.txt", row.names = FALSE, sep = "\t")
